@@ -1,0 +1,242 @@
+.lucky{
+   box-shadow: 0px 0px 12px 3px red;
+   animation:glowingbtn 1s 0s linear infinite ;
+}
+ @keyframes glowingbtn{
+    0%{
+        background-color: #f00109;
+        box-shadow: 0 0 3px 3px #f00109;
+    }
+    50%{
+        background-color: #f00109;
+        box-shadow: 0 0 30px 2px #f00109;
+    }
+    100%{
+        background-color: #f00109;
+        box-shadow: 0 0 3px 3px #f00109;
+    }
+   
+}
+.myMenu li a:hover{
+    color: red;
+}
+
+#imageSection{
+    position: relative;
+}
+
+
+#imageSection .top{
+    height: 300px;
+    background-color: white;
+}
+#imageSection .bottom{
+    /* height: 550px; */
+    /* padding-top: 68px; */
+    background-image: linear-gradient(to top, red 60%, #fff 30%);
+}
+#imageSection .bottom img{
+    width: 80%;
+    position: absolute;
+    top: 6% !important;
+    left: 10%;
+}
+.myh2{
+    position: relative;
+    top: 98px;
+    left: 98px;
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+}
+.pt{
+    padding-top: 143px;
+}
+
+.main-h2  h2{
+    position: absolute;
+    font-size: 150px;
+    font-weight: 800;
+    top: -15px;
+    right: 17px;
+    color: #fff;
+    opacity: 20%;
+}
+.youh2 h2{
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.row-box{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.choudhary{
+   background-image: url(images/images34.jpg);
+ 
+}
+
+.choudhary .sab{
+    background-color: #f00109CC;
+    height: 100%;
+    width: 100%;
+}
+
+.margin{
+    padding:40px;
+}
+.ih2{
+    padding-top: 78px;
+}
+.choose{
+    background-image: url(images/images36.jpg) ;
+   height: 100%;
+    padding: 0px;
+   width: 100%;
+}
+.bg{
+    background-color: #fdeeeb;
+}
+.my-p{
+    padding-left: 80px;
+}
+.hyy{
+    background-image: url(images/images58.jpg);
+    width: 100%;
+}
+.events{
+    background-image: url(images/images70.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.love{
+    padding-top: 450px;
+}
+.innerBox{
+    position: relative;
+}
+.ps-img{
+    position: absolute;
+    right: 33px;
+    bottom: 118px;
+    z-index: 999;
+}
+.footer{
+  background-color: #292933;  
+}
+.round{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+justify-content: center;
+}
+
+.list li{
+   list-style: none;
+   line-height: 40px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .myh2{
+        position: relative;
+        top: 96px;
+        left: -21px;
+        color: white;
+        font-size:50px;
+        font-weight: 700;
+    }
+
+    .youh2 h2{
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        margin-left: -15px;
+        margin-top: -72px;
+    }
+
+    .imgfull img{
+        margin-top: 100px;
+    }
+    .ps-img{
+        position: absolute;
+        right: 70px;
+        bottom: 117px;
+        z-index: 999;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+
+
+/* *{
+    font-family: "Mulish", sans-serif;
+} */
+
+/* header ul li a{
+    color: rgb(0, 66, 130) !important;
+    font-size: 14px !important;
+    margin-right: 10px;
+    font-weight: 700 !important;
+}
+
+header ul li:nth-child(6) button{
+    background-image: linear-gradient(to right, #4a9c46, #3db138, #40d954, #5cc044, #4b9f45);
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    margin-right: 10px;
+}
+header ul li:nth-child(7) button{
+    border:2px solid orange;
+    background: transparent;
+    color: orange;
+ 
+    padding: 8px 25px;
+} */
+/* 
+.form-section{
+    background-color: #306598;
+} */
